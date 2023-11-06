@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>河山大好</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    h1{
+      text-align: center;
+      color: #5165EA;
+    }
+    html,body{
+      width: 100%;
+      height: 100%;
+      background-color: #e2fff7d5;
+    }
+    body{
+      padding: 10%;
+    }
+    #results{
+      width: 100%;
+      height: 80%;
+      background-color: #e2ecff94;
+    }
+    #result {
+      font-family: Arial, sans-serif; /* 字体族 */
+      font-size: 16px; /* 字体大小 */
+      color: #333; /* 字体颜色 */
+  /* 其他你想设置的字体样式 */
+    }
+
+    #results #result{
+      width: 100%;
+      height: 100%;
+      padding: 10%;
+      
+      background-color: #e2eeff2f;
+      white-space:pre-line;
+    }
+    #sendVal{
+      display: flex;
+      width: 100%;
+      height: 20%;
+    }
+    #sendVal #question{
+      width: 70%;
+      height: 100%;
+      padding: 5%;
+      border: 2px dotted rgba(0, 4, 255, 0.714);
+    }
+    #sendVal #btn{
+      width: 30%;
+      height: 140%;
+      background-color: #5D7CFF;
+    }
+    
+    
+    
+  </style>
+</head>
+
+<body>
+  <h1>河山大好</h1>
+  <div id="results">
+    <textarea id="result"></textarea>
+  </div>
+  <div id="sendVal">
+    <input id="question" type="text">
+    <button id="btn">发送</button>
+  </div>
+  <script type="module" src="mainV2.js"></script>
+</body>
+
+</html>
