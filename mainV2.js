@@ -1,5 +1,5 @@
-import * as base64 from 'https://cdn.example.com/base-64.js'
-import CryptoJs from 'https://cdn.example.com/crypto-js.js'
+import * as base64 from 'base-64'
+import CryptoJs from 'crypto-js'
 
 let questionInput = document.querySelector("#question");
 let sendMsgBtn = document.querySelector("#btn");
